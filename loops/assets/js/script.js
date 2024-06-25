@@ -241,17 +241,3 @@ It is better to use a for loop, a for of loop, or Array.forEach() when the order
 // while (i < 7);  
 
 // document.getElementById("demo").innerHTML = text;
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -107,3 +107,10 @@ function myFunction() {
 
 // Since local variables are only recognized inside their functions, variables with the same name can be used in different functions.
 // Local variables are created when a function starts, and deleted when the function is completed.
+
+
+// function product(p1, p2){
+//   return p1 * p2;
+// }
+
+// document.getElementById("demo").innerHTML = product(4, 3);

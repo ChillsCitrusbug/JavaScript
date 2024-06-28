@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task</title>
+    <style>
+        .hidden {       
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form>
+            <label><input type="radio" name="option" id="ff" onclick="fields()">ff</label>
+            <div id="textarea" class="hidden"><textarea rows="10" cols="100"></textarea></div>
+    
+            <label><input type="radio" name="option" id="qq" onclick="fields()">qq</label>
+            <div id="input-fields" class="hidden">
+                <input type="text" id="input1"><input type="checkbox" class="chbk" id="chkbx1" name="chkbx1" value="chkbx" onclick="chbx()"> <br><br>
+                <input type="text" id="input2"><input type="checkbox" class="chbk" id="chkbx2" name="chkbx2" value="chkbx" onclick="chbx()"> <br><br>
+                <input type="text" id="input3"><input type="checkbox" class="chbk" id="chkbx3" name="chkbx3" value="chkbx" onclick="chbx()"> <br><br>
+                <input type="text" id="input4"><input type="checkbox" class="chbk" id="chkbx4" name="chkbx4" value="chkbx" onclick="chbx()"> <br><br>
+                <span style="margin-left: 5%;">&#43;</span>  
+            </div>   
+    </form>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

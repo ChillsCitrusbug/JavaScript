@@ -2,11 +2,10 @@ function fields(){
     let that = event.target;
     let parent = that.parentElement; // label
     let content = parent.nextElementSibling; // textarea / input fields
-    document.querySelectorAll('.hidden').forEach(hid => hid.classList.add('hidden'));
+    document.querySelectorAll('.hidden').forEach(hid => hid.classList.remove('hidden'));
+    document.querySelectorAll('.add').forEach(hid => hid.classList.add('hidden'));
     content.classList.remove('hidden');
-
 }
-
 
 function chbx(){
     let that = event.target;
